@@ -1,0 +1,13 @@
+#                                                                        #
+# Default routes configuration for the Welcome package                   #
+#                                                                        #
+
+-
+  name: 'Welcome screen'
+  uriPattern: 'awstest/index'
+  defaults:
+    '@package':    'Lelesys.FlowFrameworkInAWS'
+    '@controller': 'Standard'
+    '@action':     'index'
+    '@format':     'html'
+

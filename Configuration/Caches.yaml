@@ -1,0 +1,13 @@
+# Flow_Session_*
+Flow_Session_MetaData:
+  backend: TYPO3\Flow\Cache\Backend\RedisBackend
+  backendOptions:
+    hostname: 'aws-my-h7ias9pcrg5p.th6jbw.0001.euc1.cache.amazonaws.com'
+    port: 6379
+    database: 3
+Flow_Session_Storage:
+  backend: TYPO3\Flow\Cache\Backend\RedisBackend
+  backendOptions:
+    hostname: 'aws-my-h7ias9pcrg5p.th6jbw.0001.euc1.cache.amazonaws.com'
+    port: 6379
+    database: 4

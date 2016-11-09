@@ -1,0 +1,18 @@
+{
+    "description": "Add description here",
+    "type": "neos-package",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "name": "lelesys/flowframeworkinaws",
+    "autoload": {
+        "psr-0": {
+            "Lelesys\\FlowFrameworkInAWS": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Lelesys.FlowFrameworkInAWS"
+        }
+    }
+}
